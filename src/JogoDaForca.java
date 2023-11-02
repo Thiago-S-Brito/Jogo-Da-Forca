@@ -6,7 +6,7 @@ public class JogoDaForca {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         String[] palavras = {"programacao", "java", "computador", "desenvolvimento", "inteligencia", "hardware", "gabinete", "monitor", "codificação", "mousepad", "teclado",
-        "webcam"};
+        "webcam", "periferico", "headset"};
 
         String palavraSecreta = palavras[random.nextInt(palavras.length)];
         int tentativasMaximas = 6;
