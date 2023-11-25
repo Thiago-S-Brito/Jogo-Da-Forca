@@ -7,7 +7,7 @@ public class JogoDaForca {
         Random random = new Random();
         String[] palavras = {"programacao", "java", "computador", "desenvolvimento", "inteligencia", "hardware", "gabinete", "monitor", "codificação", "mousepad", "teclado",
         "webcam", "periferico", "headset", "ventoinha", "software", "controle", "arquivo", "aplicativo", "navegador", "compactar", "descompactar", "minimizar", "maximizar",
-        "notificação", "console", "digitalização", "camera", "palpite", "status", "facebook", "bateria", "carregador", "suporte", "tecnico", "integração", "hábitos", "transmição"
+        "notificação", "console", "digitalização", "camera", "palpite", "status", "facebook", "bateria", "carregador", "suporte", "tecnico", "integração", "hábitos", "transmição",
         "fragmentação", "bandeirada"};
 
         String palavraSecreta = palavras[random.nextInt(palavras.length)];
